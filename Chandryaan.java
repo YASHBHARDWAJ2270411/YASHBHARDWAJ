@@ -23,8 +23,7 @@ public class Chandrayaan {
         assertEquals("(0, 0, 0) EAST", spacecraft.getCurrentPosition());
     }
 
-    // Add more tests for other commands and scenarios...
-    public class Chandrayaan3Spacecraft {
+        public class Chandrayaan {
         private int x;
         private int y;
         private int z;
@@ -44,7 +43,7 @@ public class Chandrayaan {
                 } else if (command.equals("r")) {
                     turnRight();
                 }
-                // Implement other command cases...
+                
             }
         }
     
@@ -58,7 +57,7 @@ public class Chandrayaan {
             } else if (direction == Direction.EAST) {
                 x++;
             }
-            // Implement other directions...
+            
         }
     
         private void turnRight() {
@@ -67,7 +66,7 @@ public class Chandrayaan {
             } else if (direction == Direction.EAST) {
                 direction = Direction.SOUTH;
             }
-            // Implement other directions...
+            
         }
     
   
@@ -91,7 +90,7 @@ public class Chandrayaan {
                     } else if (command.equals("r")) {
                         turnRight();
                     }
-                    // Implement other command cases...
+                    
                 }
             }
         
@@ -105,7 +104,7 @@ public class Chandrayaan {
                 } else if (direction == Direction.EAST) {
                     x++;
                 }
-                // Implement other directions...
+                
             }
         
             private void turnRight() {
@@ -114,12 +113,12 @@ public class Chandrayaan {
                 } else if (direction == Direction.EAST) {
                     direction = Direction.SOUTH;
                 }
-                // Implement other directions...
+                
             }
         
-            // Add private methods for other commands...
+            
         
-            // Define a Direction enum to represent the spacecraft's direction
+            
             enum Direction {
                 NORTH,
                 SOUTH,
@@ -129,3 +128,5 @@ public class Chandrayaan {
                 DOWN
             }
         }
+    }
+}
